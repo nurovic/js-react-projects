@@ -1,0 +1,35 @@
+ul {
+    list-style-type: none;
+}
+.list{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 25em;
+  height: 2em; 
+  padding: 2px 20px;
+  align-items: center;
+  margin-bottom: 1.3em;
+}
+
+.input-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 20%;
+}
+.button{
+  height: 3.2em;
+  width: 5em;
+} 
+input{
+  width: 20em;
+  height: 3em;
+  margin-right: 1.6em;
+}
+
+.list-container{
+  display: flex;
+  justify-content: center;
+}
